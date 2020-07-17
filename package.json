@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "gatsby develop",
+    "dev": "ENABLE_GATSBY_REFRESH_ENDPOINT=true gatsby develop",
     "build": "gatsby build"
   },
   "dependencies": {
