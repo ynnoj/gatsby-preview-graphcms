@@ -1,7 +1,11 @@
 {
+  "private": true,
+  "author": "Jonathan Steele <jonathan@steele.pro> (https://steele.pro)",
+  "license": "MIT",
   "scripts": {
-    "dev": "ENABLE_GATSBY_REFRESH_ENDPOINT=true gatsby develop",
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "dev": "ENABLE_GATSBY_REFRESH_ENDPOINT=true gatsby develop"
   },
   "dependencies": {
     "gatsby": "2.24.3",
